@@ -1,0 +1,23 @@
+{
+  "name": "ShowShow",
+  "version": "0.0.0",
+  "authors": [
+    "Tavern <windack@qq.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "~0.5.3",
+    "components-font-awesome": "~4.2.0"
+  }
+}

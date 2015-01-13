@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/components-font-awesome/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'PT Sans', sans-serif;
+            background: rgb(215, 215, 215);
+
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .icon {
+            font-size: 86px;
+        }
+
+        .step {
+            box-shadow: 0 0 50px #888;
+            height: 600px;
+            width: 600px;
+            color: #fff;
+
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-pack: center;
+            -webkit-box-align: center;
+
+            /*background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgba(200, 200, 200, 0.9)), to(rgba(150, 150, 150, 0.9)));*/
+            background: rgba(150, 150, 150, 0.9);
+            border-radius: 10px;
+            font-size: 36px;
+            text-shadow: 0 0 5px #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="impress">
+    <div class="step">如</div>
+    <div class="step" data-x="500" data-z="-500" data-rotate-y="90">
+        <p><b>软件界目前最流行的技术?</b><br><br>
+            <i class="fa fa-apple fa-fw icon"></i><i class="fa fa-android fa-fw icon"></i><i
+                    class="fa fa-windows fa-fw icon"></i>
+        </p>
+    </div>
+    <div class="step" data-z="-1000" data-rotate-y="180">
+        <p><b>电脑程序能再手机上运行吗？</b><br>
+            <i class="fa fa-desktop fa-fw icon"></i><i class="fa fa-arrow-right fa-fw icon"></i><i
+                    class="fa fa-mobile-phone fa-fw icon"></i>
+        </p>
+    </div>
+    <div class="step" data-y="-500" data-z="-500" data-rotate-x="90">D！</div>
+    <div class="step" data-x="-500" data-z="-500" data-rotate-y="-90">E！</div>
+    <div class="step" data-y="500" data-z="-500" data-rotate-x="-90">F！</div>
+</div>
+
+<script src="assets/impress.js/js/impress.js"></script>
+<script>
+    (function () {
+        impress().init();
+    })();
+</script>
+</body>
+</html>
